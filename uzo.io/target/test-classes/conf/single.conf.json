@@ -1,0 +1,21 @@
+{
+	"server": "hub.lambdatest.com",
+	"user": "infoineffablecapital",
+	"key": "YTeifHP0fv8b8gQm87G5lpSdh52oFwE9Y69iqA3gRxkTGr3vKg",
+
+	"capabilities": {
+		"build": "Java Selenide Single",
+		"visual": true,
+		"network": true,
+		"console": true,
+		"tunnel": false
+	},
+
+	"environments": {
+		"chrome": {
+		    "platform": "windows 10",
+			"browserName": "chrome",
+			"version":"72"
+		}
+	}
+}

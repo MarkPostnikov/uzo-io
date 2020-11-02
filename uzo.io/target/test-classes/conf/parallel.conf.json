@@ -1,0 +1,31 @@
+{
+	"server": "hub.lambdatest.com",
+	"user": "infoineffablecapital",
+	"key": "YTeifHP0fv8b8gQm87G5lpSdh52oFwE9Y69iqA3gRxkTGr3vKg",
+
+	"capabilities": {
+		"build": "Java Selenide Parallel",
+		"visual": true,
+		"network": true,
+		"console": true,
+		"tunnel": false
+	},
+
+	"environments": {
+		"chrome": {
+		    "platform": "windows 10",
+			"browserName": "chrome",
+			"version":"72"
+		},
+		"firefox": {
+			"platform": "windows 8.1",
+			"browserName": "firefox",
+			"version":"65"
+		},
+		"safari": {
+			"platform": "macOS Mojave",
+			"browserName": "safari",
+			"version":"12"
+		}
+	}
+}
